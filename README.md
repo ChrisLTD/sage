@@ -35,11 +35,11 @@ Make sure all dependencies have been installed before moving on:
 
 ## Theme installation
 
-Install Sage using Composer from your WordPress themes directory (replace `your-theme-name` below with the name of your theme):
+Copy sage into your theme directory, then run these commands
 
 ```shell
-# @ app/themes/ or wp-content/themes/
-$ composer create-project roots/sage your-theme-name dev-master
+$ php composer.phar install
+$ php composer run-script post-create-project-cmd
 ```
 
 During theme installation you will have the options to:
