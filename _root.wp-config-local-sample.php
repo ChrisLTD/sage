@@ -17,7 +17,7 @@ define('SECURE_AUTH_SALT', 'H#e6+V[+>t8>+MD|J3QA,iA-@G.rv&Ni!>L]= M-9}KJ]pJC|i4[
 define('LOGGED_IN_SALT',   '4^ttm(EFN}4ybo.gc/o DGGI&hG+{2}@$zXu)GMjU6qID`@bH]R!rD;Fk2#rEd$}');
 define('NONCE_SALT',       '4/zc%,r>XhZDSR3mYXf`r}6+:W+k/8Qf0=QYf6W~{Gakhyk2|bR7gRT%s@xLm4)6');
 
-$local_path = '/lift-up-long-island/';
+$local_path = ':8888/lift-up-long-island/';
 define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME'] . $local_path);
 define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . $local_path);
 
@@ -25,6 +25,3 @@ define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . $local_path);
 error_reporting(E_ALL ^ E_DEPRECATED);
 
 // define('WP_DEBUG', true);
-
-// Used for live reload
-$IS_DEV = true;
