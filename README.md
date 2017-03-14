@@ -39,7 +39,7 @@ Copy sage into your theme directory, then run these commands
 
 ```shell
 $ php composer.phar install
-$ php composer run-script post-create-project-cmd
+$ php composer.phar run-script post-create-project-cmd
 ```
 
 During theme installation you will have the options to:
