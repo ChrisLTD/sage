@@ -2,4 +2,4 @@
 
 THEMEDIR="direxion"
 
-cd wp-content/themes/$THEMEDIR && grunt dev
+cd wp-content/themes/$THEMEDIR && yarn run start
