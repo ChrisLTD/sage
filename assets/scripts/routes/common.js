@@ -21,9 +21,7 @@ function debounce(func, wait, immediate) {
 function smoothScrollTo($target){
   if ($target.length) {
     var scrollValue = $target.offset().top;
-    $('html,body').animate({
-      scrollTop: scrollValue
-    }, 1000);
+    $('html,body').animate({ scrollTop: scrollValue }, 1000);
     return false;
   }
 }
