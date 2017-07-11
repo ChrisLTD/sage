@@ -123,3 +123,15 @@ function slugify ($str, $replace="-") {
   $str = strtolower(trim($str, $replace));
   return $str;
 }
+
+/** 
+ * Prefix for jump links in the navbar
+ * @return nothing if it's the homepage, or the homepage url if it's not
+ */
+function jump_link_prefix() {
+  global $post;
+  if (is_front_page()) {
+    return '';
+  }
+  return get_bloginfo('url') . '/';
+}
