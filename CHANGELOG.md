@@ -1,9 +1,23 @@
+### HEAD
+* Update dependencies, support `config-local.json`, implement autoload system for styles/scripts, use `roots/sage-installer`, use `roots/sage-lib` ([#1919](https://github.com/roots/sage/pull/1919))
+* Add soberwp/controller ([#1903](https://github.com/roots/sage/pull/1903))
+* Change syntax of template call to match other files in views ([#1908](https://github.com/roots/sage/pull/1908))
+* Add Tachyons as a CSS framework option ([#1867](https://github.com/roots/sage/pull/1867))
+* Remove post format reference in template call ([#1904](https://github.com/roots/sage/pull/1904))
+* Update inline documentation to reflect correct theme file locations ([#1890](https://github.com/roots/sage/pull/1890))
+* Optimize CSS Assets safe = true ([#1901](https://github.com/roots/sage/pull/1901))
+* Update Autoprefixer and standardize browserlist location ([#1899](https://github.com/roots/sage/pull/1899))
+* Do not redirect for WP-CLI ([#1891](https://github.com/roots/sage/pull/1891))
+* Illuminate: container make with parameters ([#1888](https://github.com/roots/sage/pull/1888))
+* Add Stylelint for linting stylesheets ([#1885](https://github.com/roots/sage/pull/1885))
+
 ### 9.0.0-beta.3: April 21st, 2017
 * Move required theme files to `sage/resources` ([#1877](https://github.com/roots/sage/pull/1877))
 * Move `src/` to `app/` ([#1868](https://github.com/roots/sage/pull/1868))
 * Move `templates/` to `resources/views/`, move `assets/` to `resources/assets/`, rename `base.blade.php` to `app.blade.php` ([#1864](https://github.com/roots/sage/pull/1864))
 * Add option to configure build settings ([#1822](https://github.com/roots/sage/pull/1822))
 * Add support for HTML injection ([#1817](https://github.com/roots/sage/pull/1817))
+* Add Tachyons as a CSS framework option ([#1867](https://github.com/roots/sage/pull/1867))
 
 ### 9.0.0-beta.2: January 19th, 2017
 * Fix Browersync ([#1815](https://github.com/roots/sage/pull/1815))
