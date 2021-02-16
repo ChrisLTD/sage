@@ -1,5 +1,8 @@
 #!/bin/bash
 
-THEMEDIR="direxion"
+THEMEDIR="themeDirHere"
 
-cd wp-content/themes/$THEMEDIR && yarn run start
+cd wp-content/themes/$THEMEDIR
+nvm use
+yarn audit --level critical
+yarn run start
